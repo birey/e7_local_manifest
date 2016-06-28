@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!-- Remove frameworks -->
+  <remove-project name="platform/frameworks/testing" />
+<!-- Remove Telecomm -->
+  <remove-project name="CyanogenMod/android_packages_services_Telecomm" />
+
+<!-- TWRP sources -->
+  <project name="omnirom/android_bootable_recovery"              path="bootable/recovery-twrp"      remote="github" revision="android-6.0" />
+
+<!-- Common E7 sources -->
+  <project name="ganeshi4u/android_device_samsung_e7-common"     path="device/samsung/e7-common"    remote="github" revision="cm-12.1" />
+  <project name="ganeshi4u/proprietary_vendor_samsung_e7-common" path="vendor/samsung/e7-common"    remote="github" revision="cm-12.1" />
+
+<!-- SM-E700H sources -->
+  <project name="ganeshi4u/android_device_samsung_e73gxx"        path="device/samsung/e73gxx"       remote="github" revision="cm-12.1" />
+  <project name="ganeshi4u/proprietary_vendor_samsung_e73gxx"    path="vendor/samsung/e73gxx"       remote="github" revision="cm-12.1" />
+  
+<!-- Hardware -->  
+  <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common"  remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_qcom_common"         path="device/qcom/common"          remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_qcom_fm"           path="hardware/qcom/fm"            remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_external_mm-dash"           path="external/mm-dash"            remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_samsung"           path="hardware/samsung"            remote="github" revision="cm-12.1" />
+
+<!-- CM replacements -->
+  <project path="packages/services/Telecomm" name="TheWhisp/android_packages_services_Telecomm" revision="cm-12.1" />
+</manifest>
