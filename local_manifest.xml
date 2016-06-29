@@ -16,6 +16,9 @@
   <project name="ganeshi4u/android_device_samsung_e73gxx"        path="device/samsung/e73gxx"       remote="github" revision="cm-12.1" />
   <project name="ganeshi4u/proprietary_vendor_samsung_e73gxx"    path="vendor/samsung/e73gxx"       remote="github" revision="cm-12.1" />
   
+<!-- Kernel source -->
+  <project name="ganeshi4u/kernel_samsung_e7"                    path="kernel/samsung/e73g"         remote="github" revision="cm-12.1" />
+  
 <!-- Hardware -->  
   <project name="CyanogenMod/android_device_samsung_qcom-common" path="device/samsung/qcom-common"  remote="github" revision="cm-12.1" />
   <project name="CyanogenMod/android_device_qcom_common"         path="device/qcom/common"          remote="github" revision="cm-12.1" />
